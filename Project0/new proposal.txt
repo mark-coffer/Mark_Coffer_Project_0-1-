@@ -1,0 +1,31 @@
+Menu
+1) Set active User
+	- lookup a user by name and store value for later use
+	- display information for that user
+		1) Update info
+			1) Update Movie
+			- enter movie to be added,
+			- if that record already exists, ask if they would like to change current table1
+			- if doesnt exist, create new entry and update table1
+			-display new information
+			- break
+			2) Update Name
+				-prompt user for new first name
+				-prompt user for new last name
+				-display new information
+				-break
+
+		2) Who Else Has Seen It?
+			- enter a movie, return first and last name of other users that have seen it
+
+		3) Clear User
+			- return to parent menu, reset active user value
+
+2) What Others Have Watched
+	- returns list of movies in table2
+
+3) Create New User
+	- add new user to table 1 with First Name, Last Name and Most Recently watched movie
+
+4) Quit
+	-end program with exit message
